@@ -46,7 +46,6 @@ public class Praktikum_2_GUI extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         isi = new javax.swing.JTextArea();
         gambarbb = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -132,10 +131,6 @@ public class Praktikum_2_GUI extends javax.swing.JFrame {
         jPanel1.add(gambarbb);
         gambarbb.setBounds(270, 80, 270, 160);
 
-        jLabel2.setText("jLabel2");
-        jPanel1.add(jLabel2);
-        jLabel2.setBounds(320, 130, 34, 14);
-
         getContentPane().add(jPanel1);
         jPanel1.setBounds(0, 0, 580, 450);
 
@@ -186,8 +181,8 @@ public class Praktikum_2_GUI extends javax.swing.JFrame {
 
     private void ssActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ssActionPerformed
         if(ss.isSelected()){
-            sedang.setText("Rp. 224.000");
-            besar.setText("Rp. 160.000");
+            sedang.setText("Rp. 160.000");
+            besar.setText("Rp. 224.000");
             isi.setText("Daging ayam dan sapi asap \n daging sapi cincang \n burger sapi \n jamur \n paprika merah \n paprika hijau");
             gambarbb.setVisible(false);
             gambarmeat.setVisible(false);
@@ -247,7 +242,6 @@ public class Praktikum_2_GUI extends javax.swing.JFrame {
     private javax.swing.ButtonGroup group;
     private javax.swing.JTextArea isi;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
